@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'B28' Fieldset</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Identitas</legend>
+            <label for="nama">Nama</label> <input type="text" name="nama" id="nama"> <br>
+            <label for="email">Email</label> <input type="email" name="email" id="email"> <br>
+            <label for="telepon">No Telp</label> <input type="tel" name="telepon" id="telepon" pattern="(62)[0-9]{5,20}">
+        </fieldset>
+        <fieldset>
+            <legend>Alamat</legend>
+            <label for="dukuh">Dukuh</label> <input type="text" name="dukuh" id="dukuh"> <br>
+            <label for="desa">Kelurahan</label> <input type="text" name="desa" id="desa"> <br>
+            <label for="kecamatan">Kecamatan</label> <input type="text" name="kecamatan" id="kecamatan"> <br>
+            <label for="kabupaten">Kabupaten</label> <input type="text" name="kabupaten" id="kabupaten"> <br>
+            <label for="provinsi">Provinsi</label> <input type="text" name="provinsi" id="provinsi">
+        </fieldset>
+        <button type="submit">Simpan</button>
+    </form>
+</body>
+</html>
